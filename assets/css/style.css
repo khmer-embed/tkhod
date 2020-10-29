@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Preahvihear', ubuntu;
+}
+
+body {
+    width: 100%;
+    font-family: 'Preahvihear', cursive;
+}
+
+.wraper {
+    display: inline-flex;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.left {
+    width: 15%;
+    border-radius: 5px;
+    background-color: #e2e2e2;
+    position: fixed;
+}
+
+.left label {
+    color: red;
+    float: center;
+    font-size: 30px;
+    padding: 0px 35px;
+    margin-top: 15px;
+}
+
+.left ul {
+    list-style-type: none;
+}
+
+.left ul li {
+    padding: 3px 40px;
+}
+
+.left ul li a {
+    color: red;
+    text-decoration: none;
+    border-radius: 3px;
+
+    border-color: dodgerblue;
+}
+
+.left ul li a.active,
+.left ul li a:hover {
+    background-color: white;
+    color: red;
+    border-left-style: solid;
+    border-color: red;
+    padding: 7px 15px;
+}
+
+.em {
+    width: 3%;
+}
+
+.emp {
+    width: 0%
+}
+
+.main {
+    background-color: none;
+    width: 80%;
+    border-radius: 5px;
+    margin: 0 250px;
+}
+
+.topbar {
+    background-color: Gray;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.topbar ul {
+    list-style-type: none;
+    margin: 0px 10px;
+}
+
+.topbar ul li {
+    display: inline-block;
+
+}
+
+.topbar ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 9px 12px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.topbar ul li a.active,
+.topbar ul li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.c-tut {
+    background-color: #dbfff0;
+}
+
+.c-tut img {
+    width: 90%;
+    padding: 20px 30px;
+}
+
+.c-tut .p-rest {
+    padding: 20px 0;
+}
+
+.b-example {
+    background-color: #e3e6e5;
+    border-radius: 5px;
+}
+
+.b-example h4 {
+    padding: 20px 35px;
+}
+
+.b-example p {
+    padding: 10px 20px;
+    background-color: white;
+    border-left: 6px solid green;
+}
+
+.btn-t a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tbn-t a .previous {
+    color: white;
+    text-decoration: none;
+}
+.th h2  {
+    border-left-width: 8px;
+    border-left-style: solid;
+    color: crimson;
+    padding: 5px 10px;
+}
+.mean-css ul {
+    list-style-type: circle;
+    margin: 20px 50px;
+}
+.mean-css ul li {
+
+}
+.mean-css ul li a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+}
+.mean-css label {
+    padding-top: 15px;
+    font-size: 25px;
+}
+.demo {
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+.demo .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.main-content {
+    padding-top: 40px;  
+}
+.right-bar {
+    background-color: #66c2ff;
+    margin: 15px 25px; 
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: white;
+    height: 300px;
+}
+.demo-f {
+    background-color: lightgray;
+    padding: 10px 10px;
+    margin: 20px 25px;
+    font-size: 15px;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: green;
+}
+.footer {
+    background-color: black;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-top: solid;
+    border-style-top: solid;
+    border-color: green;
+    border-width: 5px;
+}
+.footer label {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+}
+.footer ul{
+    list-style-type: circle;
+    color: red;
+    margin-left: 50px;
+}
+.footer ul li {
+    margin: 10px 5px;
+}
+.footer ul li a{
+    text-decoration: none;
+    padding: 0 15px;
+}
